@@ -59,7 +59,7 @@ require "open-uri"
 require_relative "../lib/tailwindcss/upstream"
 
 def tailwindcss_download_url(filename)
-  "https://github.com/tailwindlabs/schmidp/releases/download/#{Tailwindcss::Upstream::VERSION}/#{filename}"
+  "https://github.com/schmidp/tailwindcss/releases/download/#{Tailwindcss::Upstream::VERSION}/#{filename}"
 end
 
 TAILWINDCSS_RAILS_GEMSPEC = Bundler.load_gemspec("tailwindcss-rails.gemspec")
